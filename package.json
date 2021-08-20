@@ -25,6 +25,9 @@
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.2.5",
+    "@fortawesome/ember-fontawesome": "^0.2.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
     "babel-eslint": "^10.1.0",
@@ -36,9 +39,11 @@
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-cli-mirage": "^2.2.0",
+    "ember-cli-postcss": "^7.0.2",
     "ember-cli-sri": "^2.1.1",
+    "ember-cli-surge": "^1.4.4",
     "ember-cli-terser": "^4.0.2",
-    "ember-data": "~3.27.1",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.0.4",
     "ember-load-initializers": "^2.1.2",
@@ -46,8 +51,10 @@
     "ember-page-title": "^6.2.2",
     "ember-qunit": "^5.1.4",
     "ember-resolver": "^8.0.2",
+    "ember-set-helper": "^2.0.1",
     "ember-source": "~3.27.2",
     "ember-template-lint": "^3.4.2",
+    "ember-test-selectors": "^6.0.0",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-ember": "^10.4.2",
@@ -58,7 +65,9 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.0",
     "qunit": "^2.15.0",
-    "qunit-dom": "^1.6.0"
+    "qunit-dom": "^1.6.0",
+    "tailwindcss": "^2.2.7",
+    "tracked-built-ins": "^1.1.1"
   },
   "engines": {
     "node": "10.* || >= 12"
